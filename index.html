@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Mustafa Code</title>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Mustafa's Code</h1>
+      <p>Learning javascript</p>
+      <div class="main-actions">
+        <button onclick="startGrid()">Generate</button>
+        <button onclick="location.reload()">Refresh</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="grid-colors"></div>
+
+    <div id="btn-box">
+      <div class="actions">
+        <input type="text" placeholder="Color name..." id="color">
+        <button onclick="addMore()">Add more</button>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="./js/main.js"></script>
+  <script>
+    (function() {
+      startGrid();
+    })();
+  </script>
+
+</body>
+</html>

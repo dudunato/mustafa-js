@@ -1,0 +1,67 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+header {
+  width: 100%;
+  background: #f3eded;
+  padding: 40px 0px 40px 0px;
+}
+
+header div {
+  padding: 0px 20px;
+}
+
+header h1 {
+  font-size: 22px;
+}
+
+.main-actions {
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.grid-colors {
+  width: 100%;
+}
+
+.color-box {
+  width: 20%;
+  height: 25px;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+}
+
+.box {
+  width: 33.333%;
+  height: 50px;
+  float: left;
+  text-align: center;
+}
+
+.actions {
+  margin: 0 auto;
+  width: 200px;
+}
+
+#btn-box {
+  padding: 20px 0px 2px 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #dedbdb;
+  float: left;
+}
+
+#color {
+  height: 25px;
+  border: 1px solid;
+}
+
+button {
+  height: 30px;
+  background: transparent;
+  border: 1px solid;
+  cursor: pointer;
+}
